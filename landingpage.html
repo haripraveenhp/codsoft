@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url('https://digwallpapers.com/wallpapers/middle-vertical-retina/7/2/4/51210-2160x3840-pink-galaxy-wallpaper-photo-phone-4k.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+      background-size: cover; /* Adjust as needed */
+      background-position: center; /* Adjust as needed */
+      background-repeat: no-repeat; /* Adjust as needed */
+      color: white;
+    }
+    header {
+      background-color: #620b9c;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #53006c;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #3a0c73;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #4b1288;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .toy-category {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .toy-category a {
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: 1px solid #020000;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .toy-category a:hover {
+      background-color: #f00000;
+      color: rgb(14, 0, 0);
+    }
+
+    .toy-category a.active {
+      background-color: #000000;
+      color: white;
+    }
+
+    .toys-section {
+      display: none;
+      margin-top: 30px;
+      background-color: #7a09a0;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .toys-section.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>H2 TOYS</h1>
+</header>
+
+<nav>
+    <div class="toy-category">
+        <a href="#cars" class="active" onclick="showToys('cars')">Cars</a>
+        <a href="#teddy-bears" onclick="showToys('teddy-bears')">Teddy Bears</a>
+        <a href="#dolls" onclick="showToys('dolls')">Dolls</a>
+        <a href="#lego" onclick="showToys('lego')">Lego</a>
+        <!-- Add more categories as needed -->
+      </div> 
+</nav>
+<style>
+    .toys-section img {
+      width: 100%; /* Set the width to 100% for equal sizing */
+      max-width: 300px; /* Optional: Set a maximum width to control image size */
+      height: auto; /* Maintain the aspect ratio */
+      display: block; /* Remove any default spacing */
+      margin: 10px auto; /* Optional: Add margin for spacing */
+    }
+  </style>
+
+<main>
+  <h2>WELCOME TO H2 TOYS!</h2>
+  <p>Toys, essential for childhood development, serve as tools for learning and imaginative play. They foster creativity, social skills, and cognitive abilities, providing joy and entertainment for children worldwide. From classic dolls and action figures to innovative electronic gadgets and educational games, toys play a pivotal role in shaping memorable and enriching childhood experiences.</p>
+  
+  
+
+  <div id="cars" class="toys-section active">
+    <h3>EXPLORE OUR CAR COLLECTION</h3>
+    <p>Discover a variety of toy cars that will delight your child. From race cars to classic models, we have something for every car enthusiast!</p>
+    <img src="https://fliptoy.in/cdn/shop/products/kjsfdjgsdkjfguytr8764.jpg?v=1698398282&width=990" alt="Toy Cars">
+    <img src="https://staranddaisy.in/wp-content/uploads/2022/12/61gsubXa2nL-768x768.jpg" alt="Toy Cars">
+    <img src="https://images.jdmagicbox.com/quickquotes/images_main/mercedes-battery-operated-4x4-jumbo-size-ride-toy-car-for-kids-with-windshield-red-2220793437-ahi1m87i.jpg" alt="Toy Cars">
+    <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Toy Cars">
+</div>
+
+  <div id="teddy-bears" class="toys-section">
+    <h3>CUDDLE UP WITH OUR TWDDY BEARS</h3>
+    <p>Our adorable teddy bears are perfect companions for bedtime cuddles. Browse our collection and find the perfect furry friend for your child.</p>
+    <img src="https://m.media-amazon.com/images/I/713kPKxiLtL._SX679_.jpg" alt="Toy teddy-bears ">
+    <img src="https://m.media-amazon.com/images/I/51DPQ+-smqL._SY300_SX300_.jpg" alt="Toy teddy-bears ">
+    <img src="https://rukminim2.flixcart.com/image/832/832/kka1si80/stuffed-toy/u/v/a/cute-soft-pink-teddy-bear-with-heart-balloon-i-love-you-30-original-imafzn5zkdyg5zwa.jpeg?q=70&crop=false" alt="Toy teddy-bears">
+    <img src="https://media.istockphoto.com/id/1332455278/photo/smiling-white-light-brown-and-dark-brown-teddy-bears-sitting-on-table-at-pink-wall-background.webp?s=1024x1024&w=is&k=20&c=5raJN_l0z5RhJWWeN_tD-RD8-adRTLjOa51XxakiZ_E=" alt="Toy teddy-bears">
+ </div>
+
+  <div id="dolls" class="toys-section">
+    <h3>EXPLORE OUR DOLLS COLLECTION</h3>
+    <p>Dolls, timeless and cherished companions, captivate hearts with their diverse forms, encouraging imaginative play and fostering emotional connections among children. Whether portraying characters or serving as comforting friends, dolls remain integral to the world of childhood joys.</p>
+    <img src="https://w0.peakpx.com/wallpaper/423/53/HD-wallpaper-cute-doll-cute-doll-frozen-ice.jpg" alt="Toy dolls">
+    <img src="https://w0.peakpx.com/wallpaper/155/175/HD-wallpaper-cute-friends-boy-and-girl-couple-cute-couple-dolls-fight-girl-love-toys.jpg" alt="Toy dolls">
+    <img src="https://m.media-amazon.com/images/I/517ISWvrvkL._SX300_SY300_QL70_FMwebp_.jpg" alt="Toy dolls">
+    <img src="https://m.media-amazon.com/images/I/411ZW9MsjkL._SX300_SY300_QL70_FMwebp_.jpg" alt="Toy dolls">
+    </div>
+  <div id="lego" class="toys-section">
+    <h3>EXPLORE OUR LEGO COLLECTION</h3> 
+    <p>Lego, the iconic interlocking bricks, sparks creativity and problem-solving skills as builders construct imaginative worlds, fostering a love for engineering and design in both children and adults. With limitless possibilities, Lego continues to be a universal symbol of playful learning and innovation.</p>
+    <img src="https://img.etimg.com/thumb/msid-105792958,width-300,height-225,imgsize-17440,resizemode-75/fortnite-lego-know-release-date-game-features-skins-sets-and-more.jpg" alt="Toy lego">
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/210520051857-restricted-01-lego-lgbtq-set-pride-intl.jpg?q=w_2000,c_fill/f_webp" alt="Toy lego">
+    <img src="https://m.media-amazon.com/images/I/81m24sHjkKL._SX679_.jpg" alt="Toy lego">
+    <img src="https://media.istockphoto.com/id/539237540/photo/four-lego-super-heroes-minifigures-on-gray-baseplate.jpg?s=612x612&w=0&k=20&c=SRuIh6jr1ORJwdBgEg94UApNBHvwERe_BE1KDgx79sY=" alt="Toy lego">
+    </div>
+</main>
+
+<footer>
+  &copy; 2022 Your Website. All rights reserved.
+</footer>
+<div class="services-section">
+    <h3>Our Services</h3>
+    <p>Explore our range of services, including toy customization, gift wrapping, and personalized consultations for the perfect toy selection.</p>
+  </div>
+
+  <div class="contact-section">
+    <h3>Contact Us</h3>
+    <p>Reach out to us for any inquiries or assistance:</p>
+    <p>Email: info@yourtoystore.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </div>
+
+  <div class="about-section">
+    <h3>About Us</h3>
+    <p>Your Toy Store is dedicated to bringing joy and laughter to children through a curated collection of toys. With a commitment to quality and creativity, we aim to create lasting memories for every child.</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2022 Your Toy Store. All rights reserved.
+</footer>
+
+<script>
+  function showToys(category) {
+    // Hide all toy sections
+    const toySections = document.querySelectorAll('.toys-section');
+    toySections.forEach(section => {
+      section.classList.remove('active');
+    });
+
+    // Show the selected toy section
+    const selectedSection = document.getElementById(category);
+    if (selectedSection) {
+      selectedSection.classList.add('active');
+    }
+
+    // Update the active class for the category links
+    const categoryLinks = document.querySelectorAll('.toy-category a');
+    categoryLinks.forEach(link => {
+      link.classList.remove('active');
+    });
+
+    const selectedLink = document.querySelector(`.toy-category a[href="#${category}"]`);
+    if (selectedLink) {
+      selectedLink.classList.add('active');
+    }
+  }
+</script>
+
+</body>
+</html>
